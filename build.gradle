@@ -1,0 +1,31 @@
+plugins {
+    id 'java'
+    id "io.github.reyerizo.gradle.jcstress" version "0.8.15"
+    id "me.champeau.jmh" version "0.7.0"
+}
+
+group = 'io.github.lantalex'
+version = '0.1'
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+
+repositories {
+    mavenCentral()
+}
+
+jcstress {
+    verbose = true
+}
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.9.1')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testImplementation 'org.openjdk.jol:jol-core:0.16'
+}
+
+test {
+    useJUnitPlatform()
+}
