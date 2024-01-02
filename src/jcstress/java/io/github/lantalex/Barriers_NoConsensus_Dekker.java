@@ -50,7 +50,7 @@ public class Barriers_NoConsensus_Dekker {
     int y;
 
     @Actor
-    public void panda(II_Result r) {
+    public void actor1(II_Result r) {
         X.setOpaque(this, 1);
 
         VarHandle.releaseFence();
@@ -62,7 +62,7 @@ public class Barriers_NoConsensus_Dekker {
     }
 
     @Actor
-    public void cat(II_Result r) {
+    public void actor2(II_Result r) {
         Y.setOpaque(this, 1);
 
         VarHandle.acquireFence();
