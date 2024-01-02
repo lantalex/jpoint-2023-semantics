@@ -17,6 +17,11 @@ _volatile_. Для каждого показаны его высокоуровн
 >Доклад будет интересен всем, кто интересуется многопоточным программированием, моделями памяти и популярными lock-free
 > библиотеками.
 
+## Видео
+
+[![ссылка на youtube](https://img.youtube.com/vi/UZbPOtEgcoY/0.jpg)](https://www.youtube.com/watch?v=UZbPOtEgcoY)
+
+
 ## Презентация
 
 См. на странице [доклада](https://jpoint.ru/talks/3c298184b4c2467d94d48ff9d135bb59/)
