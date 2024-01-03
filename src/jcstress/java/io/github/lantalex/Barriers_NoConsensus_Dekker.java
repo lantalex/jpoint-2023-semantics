@@ -30,7 +30,7 @@ public class Barriers_NoConsensus_Dekker {
             0, 0    2,933,532    0.23%   Acceptable  no winner
             0, 1  389,564,098   29.91%   Acceptable  y not x
             1, 0  451,513,601   34.66%   Acceptable  x not y
-            1, 1  458,615,073   35.21%  Interesting  conflict
+     ---->  1, 1  458,615,073   35.21%  Interesting  conflict
 
     */
 
